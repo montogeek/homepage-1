@@ -1,19 +1,15 @@
 import React from 'react'
 import css from 'next/css'
 
-export default class extends React.Component {
-  render () {
-    return (
-			<div className={container}>
-				<h1 className={title}>
-					Hi, I'm<br />
-					<span>Evil Rabbit</span>
-				</h1>
-				<h2 className={subtitle}>Designer from Buenos Aires</h2>
-			</div>
-		)
-	}
-}
+export default () => (
+	<div className={container}>
+		<h1 className={title}>
+			Hi, I'm<br />
+			<span>Evil Rabbit</span>
+		</h1>
+		<h2 className={subtitle}>Designer from Buenos Aires</h2>
+	</div>
+)
 
 let container = css({
 	position: 'absolute',

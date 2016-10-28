@@ -1,17 +1,13 @@
 import React from 'react'
 import css from 'next/css'
 
-export default class extends React.Component {
-  render () {
-    return (
-			<div className={container}>
-				<a href="https://github.com/evilrabbit">Github</a>
-				<a href="https://dribbble.com/evilrabbit">Dribble</a>
-				<a href="https://twitter.com/evilrabbit_">Twitter</a>
-			</div>
-		)
-	}
-}
+export default () => (
+	<div className={container}>
+		<a href="https://github.com/evilrabbit">Github</a>
+		<a href="https://dribbble.com/evilrabbit">Dribble</a>
+		<a href="https://twitter.com/evilrabbit_">Twitter</a>
+	</div>
+)
 
 let container = css.merge(
 	{
