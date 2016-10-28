@@ -5,6 +5,7 @@
     "type": "git",
     "url": "git+https://github.com/evilrabbit/homepage.git"
   },
+  "test": "wtf",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/evilrabbit/homepage/issues"
