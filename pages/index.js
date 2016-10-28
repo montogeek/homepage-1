@@ -1,9 +1,9 @@
 import React from 'react'
+import css from 'next/css'
 import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Greeting from '../components/greeting'
 import Logo from '../components/logo'
-import css from 'next/css'
 
 export default () => (
 	<div className={container}>
@@ -27,7 +27,7 @@ let fadeIn = css.keyframes({
 })
 
 let container = css({
-	animation: `${fadeIn} 3s`,
+	animation: `${fadeIn} 2s`,
 	position: 'absolute',
 	overflow: 'hidden',
 	top: 0,
